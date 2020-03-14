@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <!-- Remote names -->
+  <remote name="gb" fetch="https://github.com/"/>
+
+  <!-- Devices sources -->
+  <project path="device/xiaomi/scorpio" name="l3lackshark/android_device_xiaomi_scorpio" revision="scorpio" remote="gb"/>
+
+  <!-- Common Project -->
+  <project path="vendor/xiaomi" name="TheScarastic/proprietary_vendor_xiaomi" revision="cm-14.1" remote="gb"/>
+  <project path="kernel/xiaomi/msm8996" name="l3lackShark/android_kernel_xiaomi_scorpio" revision="master" remote="gb"/>
+  <project path="device/xiaomi/msm8996-common" name="l3lackShark/android_device_xiaomi_scorpio" revision="msm8996-common" remote="gb"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="gb"/>
+           
+  <!-- TWRP -->
+  <!--<project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-9.0" remote="gb">-->
+
+</manifest>
